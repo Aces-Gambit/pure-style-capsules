@@ -377,8 +377,9 @@ select {
   min-height: 30rem;
   flex-grow: 1;
   object-fit: cover;
-  background-image: url("https://unsplash.it/500/800");
+  background-image: url("/assets/img/Nutrition-Chemist.jpeg");
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Pitch */
@@ -574,7 +575,7 @@ select {
 
 .accordion input:checked + label:after {
   /* content: '\f077'; */
-  /* adjsut line-height to vertically center icon */
+  /* adjust line-height to vertically center icon */
   transform: translateY(6px) rotate(180deg);
   background-color: var(--link-color);
 }
