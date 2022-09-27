@@ -228,11 +228,14 @@ select {
 }
 
 /* Underlines */
+.underline-link {
+  text-decoration: underline var(--link-color);
+}
 .underline-accent {
-  text-decoration-color: underline var(--accent-color);
+  text-decoration: underline var(--accent-color);
 }
 .underline-dark-accent {
-  text-decoration-color: underline var(--nav-bg);
+  text-decoration: underline var(--nav-bg);
 }
 .underline-success {
   text-decoration: underline var(--success-color);
