@@ -16,6 +16,7 @@
   --bg-cta: #fffeda;
   --box-shadow: 0 0px 8px 0px rgb(0, 0, 0, 0.2);
   --nav-shadow: 0 8px 16px 0px rgb(0, 0, 0, 0.2);
+  --payment-shadow: 0 4px 6px 0px rgb(0, 0, 0, 0.1);
   --text-color: #333;
   --text-color-gray: #888;
   --text-color-invert: #fff;
@@ -299,6 +300,9 @@ select {
 }
 .nav-shadow {
   box-shadow: var(--nav-shadow);
+}
+.payment-shadow {
+  box-shadow: var(--payment-shadow);
 }
 
 /* Icons */
