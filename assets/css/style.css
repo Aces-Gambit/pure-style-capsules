@@ -3,8 +3,9 @@
   --nav-height: 83px;
   --bg-gradient-bloom: radial-gradient(
     circle,
-    rgba(0, 152, 129, 1) 1%,
-    rgba(0, 144, 121, 1) 30%,
+    rgba(0, 175, 149, 1) 2%,
+    rgba(0, 152, 129, 1) 40%,
+    rgba(0, 144, 121, 1) 60%,
     rgba(0, 120, 103, 1) 100%
   );
   --max-width: 1000px;
